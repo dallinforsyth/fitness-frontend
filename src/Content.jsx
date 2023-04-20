@@ -1,4 +1,6 @@
 import { WorkoutsIndex } from "./WorkoutsIndex";
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 export function Content() {
   const workouts = [
