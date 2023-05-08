@@ -2,6 +2,7 @@ import { WorkoutsIndex } from "./WorkoutsIndex";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { Modal } from "./Modal";
+import { WorkoutsShow } from "./WorkoutsShow";
 
 export function Content() {
   const [workouts, setWorkouts] = useState([]);
@@ -33,7 +34,7 @@ export function Content() {
     <div>
       <WorkoutsIndex workouts={workouts} onShowWorkout={handleShowWorkout} />
       <Modal show={isWorkoutsShowVisible} onClose={handleClose}>
-        <h1>Test</h1>
+        <WorkoutsShow workout={currentWorkout} />{" "}
       </Modal>
     </div>
   );
