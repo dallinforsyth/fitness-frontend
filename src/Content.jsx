@@ -31,8 +31,8 @@ export function Content() {
 
   return (
     <div>
-      <WorkoutsIndex workouts={workouts} />
-      <Modal show={true}>
+      <WorkoutsIndex workouts={workouts} onShowWorkout={handleShowWorkout} />
+      <Modal show={isWorkoutsShowVisible} onClose={handleClose}>
         <h1>Test</h1>
       </Modal>
     </div>
