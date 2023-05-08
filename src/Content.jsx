@@ -5,6 +5,8 @@ import { Modal } from "./Modal";
 
 export function Content() {
   const [workouts, setWorkouts] = useState([]);
+  const [isWorkoutsShowVisible, setIsWorkoutsShowVisible] = useState(false);
+  const [currentWorkout, setCurrentWorkout] = useState({});
 
   const handleIndexWorkouts = () => {
     console.log("handleIndexWorkouts");
@@ -12,6 +14,17 @@ export function Content() {
       console.log(response.data);
       setWorkouts(response.data);
     });
+  };
+
+  const handleShowWorkout = (workout) => {
+    console.log("handleShowWorkout", workout);
+    setIsWorkoutsShowVisible(true);
+    setCurrentWorkout(workout);
+  };
+
+  const handleClose = () => {
+    console.log("handleClose");
+    setIsWorkoutsShowVisible(false);
   };
 
   useEffect(handleIndexWorkouts, []);
