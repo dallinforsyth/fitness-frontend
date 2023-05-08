@@ -1,6 +1,7 @@
 import { WorkoutsIndex } from "./WorkoutsIndex";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { Modal } from "./Modal";
 
 export function Content() {
   const [workouts, setWorkouts] = useState([]);
@@ -18,6 +19,9 @@ export function Content() {
   return (
     <div>
       <WorkoutsIndex workouts={workouts} />
+      <Modal show={true}>
+        <h1>Test</h1>
+      </Modal>
     </div>
   );
 }
