@@ -6,6 +6,7 @@ export function WorkoutsIndex(props) {
         <div key={workout.id}>
           <h2>{workout.name}</h2>
           <img src={workout.img} />
+          <button onClick={() => props.onShowWorkout(workout)}>More info</button>
         </div>
       ))}
     </div>
