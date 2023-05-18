@@ -9,10 +9,18 @@ export function Content() {
   const [workouts, setWorkouts] = useState([]);
   const [isWorkoutsShowVisible, setIsWorkoutsShowVisible] = useState(false);
   const [currentWorkout, setCurrentWorkout] = useState({});
+  const [currentBodyGroupId, setCurrentBodyGroupId] = useState();
 
   const handleIndexWorkouts = () => {
     console.log("handleIndexWorkouts");
-    axios.get("http://localhost:3000/workouts.json").then((response) => {
+    console.log(currentBodyGroupId);
+    let workoutsUrl;
+    if (currentBodyGroupId) {
+      workoutsUrl = `http://localhost:3000/workouts?body_group_id=${currentBodyGroupId}.json`;
+    } else {
+      workoutsUrl = "http://localhost:3000/workouts.json";
+    }
+    axios.get(workoutsUrl).then((response) => {
       console.log(response.data);
       setWorkouts(response.data);
     });
@@ -29,15 +37,14 @@ export function Content() {
     setIsWorkoutsShowVisible(false);
   };
 
-  useEffect(handleIndexWorkouts, []);
+  useEffect(handleIndexWorkouts, [currentBodyGroupId]);
 
   return (
     <div>
       <div>
         <Form.Select
           aria-label="Default select example"
-          onChange={(event) => console.log(event.target.value)}
-          action="http://localhost:3000/workouts.${}json"
+          onChange={(event) => setCurrentBodyGroupId(event.target.value)}
         >
           <option>Body Part</option>
           <option value="1">Arms</option>
