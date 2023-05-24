@@ -1,5 +1,5 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import { Container, Row, Col, Button, Card, Form } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export function WorkoutsIndex(props) {
   return (
