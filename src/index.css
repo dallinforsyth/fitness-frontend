@@ -1,3 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+#root {
+  font-family: Arial white, Arial Bold, Gadget, sans-serif;
+  /* background-image: url("./assets/darkpattern.png"); */
+}
