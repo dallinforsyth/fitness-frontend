@@ -21,20 +21,23 @@ export function WorkoutsIndex(props) {
         <div key={workout.id}>
           <Container>
             <Row>
-              <Col>1 of 3</Col>
+              <Col xs={6} md={4}>
+                1 of 3
+              </Col>
+
+              <Card style={{ width: "18rem" }} className="mx-5 my-5">
+                <Card.Img variant="top" src={workout.img} />
+                <Card.Body>
+                  <Card.Title>
+                    <h2>{workout.name}</h2>
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </Card.Text>
+                  <Button onClick={() => props.onShowWorkout(workout)}>More info</Button>
+                </Card.Body>
+              </Card>
             </Row>
-            <Card style={{ width: "18rem" }} className="mx-5 my-5">
-              <Card.Img variant="top" src={workout.img} />
-              <Card.Body>
-                <Card.Title>
-                  <h2>{workout.name}</h2>
-                </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
-                </Card.Text>
-                <Button onClick={() => props.onShowWorkout(workout)}>More info</Button>
-              </Card.Body>
-            </Card>
           </Container>
           {/* <h2>{workout.name}</h2> */}
           {/* <img src={workout.img} /> */}
