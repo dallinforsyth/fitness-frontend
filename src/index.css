@@ -3,6 +3,7 @@ html {
 }
 
 #root {
-  font-family: 
+  font-family: url(".assests/oswald");
   background-image: url("./assets/darkpattern.png");
+  font-family: ;
 }
