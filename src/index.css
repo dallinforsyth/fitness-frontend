@@ -3,7 +3,7 @@ html {
 }
 
 #root {
-  font-family: url(".assests/oswald");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url("./assets/darkpattern.png");
   font-family: ;
 }
