@@ -18,7 +18,7 @@ export function Header() {
           <img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=eee" alt="Second slide" />
           <Carousel.Caption>
             <h5>Workouts</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Select your workout</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
