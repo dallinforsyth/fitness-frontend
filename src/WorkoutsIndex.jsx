@@ -17,10 +17,11 @@ export function WorkoutsIndex(props) {
           </Card.Body>
         </Card> */}
       </div>
-      {props.workouts.map((workout) => (
-        <div key={workout.id}>
-          <Container fluid="true">
+      <Container fluid="true">
+        {props.workouts.map((workout) => (
+          <div key={workout.id}>
             <Row>
+              <Col>hello</Col>
               <Col sm="auto">
                 1 of 3
                 <Card style={{ width: "18rem" }} className="mx-5 my-5">
@@ -36,13 +37,13 @@ export function WorkoutsIndex(props) {
                   </Card.Body>
                 </Card>
               </Col>
+              {/* <h2>{workout.name}</h2> */}
+              {/* <img src={workout.img} /> */}
+              {/* <button onClick={() => props.onShowWorkout(workout)}>More info</button> */}
             </Row>
-          </Container>
-          {/* <h2>{workout.name}</h2> */}
-          {/* <img src={workout.img} /> */}
-          {/* <button onClick={() => props.onShowWorkout(workout)}>More info</button> */}
-        </div>
-      ))}
+          </div>
+        ))}
+      </Container>
     </div>
   );
 }
