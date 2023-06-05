@@ -25,7 +25,7 @@ export function Header() {
           <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
           <Carousel.Caption>
             <h5>Third's</h5>
-            <p>Praesent commodo cursus magnas, vel scelerisque nisl consectetur.</p>
+            <p>Praesent commodo cursus magnas, vel scelerisque nisl conssfsectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
