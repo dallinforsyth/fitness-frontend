@@ -15,7 +15,7 @@ export function Header() {
           />
           <Carousel.Caption>
             <h5></h5>
-            <p>We help you!</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
