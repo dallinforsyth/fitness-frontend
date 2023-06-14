@@ -17,33 +17,32 @@ export function WorkoutsIndex(props) {
           </Card.Body>
         </Card> */}
       </div>
-      <Container fluid="true">
-        {props.workouts.map((workout) => (
-          <div key={workout.id}>
-            <Row>
-              <Col>hello</Col>
-              <Col sm="auto">
-                1 of 3
-                <Card style={{ width: "18rem" }} className="mx-5 my-5">
-                  <Card.Img variant="top" src={workout.img} />
-                  <Card.Body>
-                    <Card.Title>
-                      <h2>{workout.name}</h2>
-                    </Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </Card.Text>
-                    <Button onClick={() => props.onShowWorkout(workout)}>More info</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-              {/* <h2>{workout.name}</h2> */}
-              {/* <img src={workout.img} /> */}
-              {/* <button onClick={() => props.onShowWorkout(workout)}>More info</button> */}
-            </Row>
-          </div>
-        ))}
-      </Container>
+      {/* <Container fluid="true"> */}
+      {props.workouts.map((workout) => (
+        <div key={workout.id}>
+          {/* <Row> */}
+          {/* <Col>hello</Col> */}
+          {/* <Col sm="auto">1 of 3 */}
+          <Card style={{ width: "18rem" }} className="mx-5 my-5">
+            <Card.Img variant="top" src={workout.img} />
+            <Card.Body>
+              <Card.Title>
+                <h2>{workout.name}</h2>
+              </Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </Card.Text>
+              <Button onClick={() => props.onShowWorkout(workout)}>More info</Button>
+            </Card.Body>
+          </Card>
+          {/* </Col> */}
+          {/* <h2>{workout.name}</h2> */}
+          {/* <img src={workout.img} /> */}
+          {/* <button onClick={() => props.onShowWorkout(workout)}>More info</button> */}
+          {/* </Row> */}
+        </div>
+      ))}
+      {/* </Container> */}
     </div>
   );
 }
