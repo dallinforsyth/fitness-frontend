@@ -14,7 +14,7 @@ export function Header() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h5>Welcome</h5>
+            <h5></h5>
             <p>We help you!</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,7 +32,7 @@ export function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://betterbody.ie/wp-content/uploads/elementor/thumbs/strong-man-training-in-gym-1-scaled-puc6dnltxn54i7tqe8yfryh0a4wn9r8z3ewgicqsqo.jpg"
+            src="https://goldsgym.in/uploads/blog/compress-strong-man-training-gym-min.jpg"
             alt="Third slide"
           />
           <Carousel.Caption>
