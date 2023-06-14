@@ -21,7 +21,7 @@ export function Header() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?w=2000"
+            src="https://media.istockphoto.com/id/615883260/photo/difficult-doesnt-mean-impossible.jpg?s=612x612&w=0&k=20&c=cAEJvjTFRuF9H9gRov1Aj4X4I6xV6DSvMwWsf-2IW-0="
             alt="Second slide"
           />
           <Carousel.Caption>
