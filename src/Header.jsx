@@ -36,7 +36,7 @@ export function Header() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h5>Third's</h5>
+            <h5></h5>
             <p>Praesent commodo cursus magnas, vel scelerisque nisl conssfsectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
