@@ -25,7 +25,7 @@ export function Header() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h5>Workouts</h5>
+            <h5></h5>
             <p>Select your workout</p>
           </Carousel.Caption>
         </Carousel.Item>
