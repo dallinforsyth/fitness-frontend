@@ -8,14 +8,22 @@ export function Header() {
     <>
       <Carousel variant="dark">
         <Carousel.Item>
-          <img className="d-block w-100" src="holder.js/800x400?text=First slide&bg=f5f5f5" alt="First slide" />
+          <img
+            className="d-block w-100"
+            src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-12/211208-working-out-stock-mn-1310-55e1c7.jpg"
+            alt="First slide"
+          />
           <Carousel.Caption>
             <h5>Welcome</h5>
             <p>We help you!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=eee" alt="Second slide" />
+          <img
+            className="d-block w-100"
+            src="https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?w=2000"
+            alt="Second slide"
+          />
           <Carousel.Caption>
             <h5>Workouts</h5>
             <p>Select your workout</p>
