@@ -37,7 +37,7 @@ export function Header() {
           />
           <Carousel.Caption>
             <h5></h5>
-            <p>Praesent commodo cursus magnas, vel scelerisque nisl conssfsectetur.</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
