@@ -26,7 +26,7 @@ export function Header() {
           />
           <Carousel.Caption>
             <h5></h5>
-            <p>Select your workout</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
