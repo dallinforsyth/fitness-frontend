@@ -46,7 +46,7 @@ export function Content() {
           aria-label="Default select example"
           onChange={(event) => setCurrentBodyGroupId(event.target.value)}
         >
-          <option>Body Part</option>
+          <option value="">All Workouts</option>
           <option value="1">Arms</option>
           <option value="2">Legs</option>
           <option value="3">Core</option>
