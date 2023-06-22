@@ -50,6 +50,9 @@ export function Header() {
                 <Nav.Link href="#home">Your Workouts</Nav.Link>
                 <Nav.Link href="#pricing">Your Account</Nav.Link>
                 <Nav.Link href="#features">Pricing</Nav.Link>
+                <Nav.Link href="/login">Login</Nav.Link>
+                <Nav.Link href="/logout">Logout</Nav.Link>
+                <Nav.Link href="/signup">Signup</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
