@@ -4,6 +4,10 @@ import { useState, useEffect } from "react";
 import { Modal } from "./Modal";
 import { WorkoutsShow } from "./WorkoutsShow";
 import Form from "react-bootstrap/Form";
+import { LogoutLink } from "./LogoutLink";
+import { Login } from "./Login";
+import { Signup } from "./Signup";
+// import { Routes, Route, Navigate } from "react-router-dom";
 
 export function Content() {
   const [workouts, setWorkouts] = useState([]);
@@ -42,6 +46,9 @@ export function Content() {
   return (
     <div>
       <div>
+        <Login />
+        <Signup />
+        <LogoutLink />
         <Form.Select
           aria-label="Default select example"
           onChange={(event) => setCurrentBodyGroupId(event.target.value)}
