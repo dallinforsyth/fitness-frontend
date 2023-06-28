@@ -16,7 +16,7 @@ export function Content() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<LogoutLink />} />
-        <Route path="/workouts" element={<WorkoutsIndex />} />
+        <Route path="/" element={<WorkoutsIndex />} />
       </Routes>
       {/* <WorkoutsIndex workouts={workouts} onShowWorkout={handleShowWorkout} /> */}
     </div>
