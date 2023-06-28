@@ -46,7 +46,7 @@ export function Header() {
           <nav>
             <Navbar bg="dark" variant="dark" sticky="top">
               <Container>
-                <Navbar.Brand href="#home">Home</Navbar.Brand>
+                <Navbar.Brand href="/">Home</Navbar.Brand>
                 <Nav className="me-auto">
                   <Nav.Link href="/">Your Workouts</Nav.Link>
                   <Nav.Link href="#pricing">Your Account</Nav.Link>
