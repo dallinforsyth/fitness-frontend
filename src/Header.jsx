@@ -21,7 +21,7 @@ export function Header() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-50"
               src="https://media.istockphoto.com/id/615883260/photo/difficult-doesnt-mean-impossible.jpg?s=612x612&w=0&k=20&c=cAEJvjTFRuF9H9gRov1Aj4X4I6xV6DSvMwWsf-2IW-0="
               alt="Second slide"
             />
@@ -32,7 +32,7 @@ export function Header() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-50"
               src="https://goldsgym.in/uploads/blog/compress-strong-man-training-gym-min.jpg"
               alt="Third slide"
             />
