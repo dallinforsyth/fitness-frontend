@@ -1,3 +1,8 @@
 export function Pricing() {
-  return <p>Copyright 2022</p>;
+  return (
+    <div>
+      <p>why hello there, </p>
+      <p>its free</p>;
+    </div>
+  );
 }
