@@ -7,7 +7,7 @@ export function Header() {
   return (
     <div>
       <>
-        <Carousel variant="dark">
+        <Carousel variant="dark" size=10>
           <Carousel.Item>
             <img
               className="d-block w-100"
