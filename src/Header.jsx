@@ -7,7 +7,7 @@ export function Header() {
   return (
     <div>
       <>
-        <Carousel variant="dark" aria-setsize={1}>
+        <Carousel variant="dark" className="mh-100">
           <Carousel.Item>
             <img
               className="d-block w-100"
