@@ -7,10 +7,10 @@ export function Header() {
   return (
     <div>
       <>
-        <Carousel variant="dark" className="mh-25">
+        <Carousel variant="dark">
           <Carousel.Item>
             <img
-              className="d-block w-25"
+              className="d-block h-100"
               src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-12/211208-working-out-stock-mn-1310-55e1c7.jpg"
               alt="First slide"
             />
