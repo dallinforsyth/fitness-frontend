@@ -1,3 +1,4 @@
-div {
-  max-height: 100px;
+img {
+  max-height: 600px;
+  object-fit: contain;
 }
