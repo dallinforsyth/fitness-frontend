@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Carousel from "react-bootstrap/Carousel";
 import "./Header.css";
+import { AuthenticationLinks } from "./AuthenticationLinks";
 
 export function Header() {
   return (
@@ -52,9 +53,7 @@ export function Header() {
                   <Nav.Link href="/">Your Workouts</Nav.Link>
                   <Nav.Link href="/youraccount">Your Account</Nav.Link>
                   <Nav.Link href="/pricing">Pricing</Nav.Link>
-                  <Nav.Link href="/login">Login</Nav.Link>
-                  <Nav.Link href="/logout">Logout</Nav.Link>
-                  <Nav.Link href="/signup">Signup</Nav.Link>
+                  <AuthenticationLinks />
                 </Nav>
               </Container>
             </Navbar>
