@@ -1,6 +1,14 @@
 import Nav from "react-bootstrap/Nav";
+import axios from "axios";
 
 export function AuthenticationLinks() {
+  const handleClick = (event) => {
+    event.preventDefault();
+    delete axios.defaults.headers.common["Authorization"];
+    localStorage.removeItem("jwt");
+    window.location.href = "/";
+  };
+
   if (localStorage.jwt === undefined) {
     return (
       <>
@@ -11,7 +19,9 @@ export function AuthenticationLinks() {
   } else {
     return (
       <>
-        <Nav.Link href="/logout">Logout</Nav.Link>
+        <Nav.Link href="#" onClick={handleClick}>
+          Logout
+        </Nav.Link>
       </>
     );
   }
