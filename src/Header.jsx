@@ -51,7 +51,7 @@ export function Header() {
                 <Navbar.Brand href="/">Home</Navbar.Brand>
                 <Nav className="me-auto">
                   <Nav.Link href="/">Your Workouts</Nav.Link>
-                  <Nav.Link href="/youraccount">Your Account</Nav.Link>
+
                   <Nav.Link href="/pricing">Pricing</Nav.Link>
                   <AuthenticationLinks />
                 </Nav>

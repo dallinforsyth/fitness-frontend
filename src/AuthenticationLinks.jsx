@@ -19,6 +19,7 @@ export function AuthenticationLinks() {
   } else {
     return (
       <>
+        <Nav.Link href="/youraccount">Your Account</Nav.Link>
         <Nav.Link href="#" onClick={handleClick}>
           Logout
         </Nav.Link>

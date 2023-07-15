@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { Modal } from "./Modal";
 import { WorkoutsShow } from "./WorkoutsShow";
 import Form from "react-bootstrap/Form";
-import { LogoutLink } from "./LogoutLink";
 import { Login } from "./Login";
 import { Signup } from "./Signup";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -17,7 +16,6 @@ export function Content() {
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/logout" element={<LogoutLink />} />
         <Route path="/" element={<WorkoutsIndex />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/youraccount" element={<YourAccount />} />
