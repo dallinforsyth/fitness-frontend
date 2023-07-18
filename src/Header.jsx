@@ -10,9 +10,9 @@ import { Col } from "react-bootstrap";
 export function Header() {
   return (
     <div>
-      <Container>
+      <Container style={{ height: "4rem" }}>
         <Row>
-          <Col number="xxl">yo</Col>
+          <Col lg="auto">yo</Col>
         </Row>
       </Container>
       <>
