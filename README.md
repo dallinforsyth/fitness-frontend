@@ -3,7 +3,7 @@
 
 ![Fitness Application](./app-screenshot.png)
 
-A fitness application built using React, Ruby on Rails, and APIs for a database. This application allows users to track their workouts, set goals, and view fitness-related data.
+A fitness application built using React, Ruby on Rails, and APIs for a database. This application allows users to track target certian muslces, add a workout plan, and get important information
 
 ## Features
 
