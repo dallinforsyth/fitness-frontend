@@ -20,7 +20,7 @@ export function Content() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/youraccount" element={<YourAccount />} />
       </Routes>
-      {/* <WorkoutsIndex workouts={workouts} onShowWorkout={handleShowWorkout} /> */}
+      {/* <WorkoutsIndex workouts={workouts} onShowWorkout={handleShowWorkouet} /> */}
     </div>
   );
 }
