@@ -13,7 +13,7 @@ export function Header() {
       <Container style={{ height: "4rem" }}>
         <Row>
           <Col lg="auto" style={{ size: 24 }}>
-            FitZone Fitness
+            <p>FitZone Fitness</p>
           </Col>
         </Row>
       </Container>
