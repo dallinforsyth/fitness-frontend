@@ -13,12 +13,12 @@ export function YourAccount() {
     getUser();
   });
 
-  const [workouts, setWorkouts] = useState([]);
+  // const [workouts, setWorkouts] = useState([]);
 
   return (
     <footer>
-      <p> {user.name} </p>
-      <p> {user.email} </p>
+      {/* <p> {user.name} </p>
+      <p> {user.email} </p> */}
       <p>Copyright 2022</p>
     </footer>
   );

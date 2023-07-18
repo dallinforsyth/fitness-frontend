@@ -4,10 +4,17 @@ import Navbar from "react-bootstrap/Navbar";
 import Carousel from "react-bootstrap/Carousel";
 import "./Header.css";
 import { AuthenticationLinks } from "./AuthenticationLinks";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export function Header() {
   return (
     <div>
+      <Container>
+        <Row>
+          <Col number="xxl">yo</Col>
+        </Row>
+      </Container>
       <>
         <Carousel variant="dark" className="mh-100">
           <Carousel.Item>
