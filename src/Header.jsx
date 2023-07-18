@@ -12,8 +12,8 @@ export function Header() {
     <div>
       <Container style={{ height: "4rem" }}>
         <Row>
-          <Col lg="auto" style={{ size: 24 }}>
-            <p>FitZone Fitness</p>
+          <Col style={{ fontSize: 33 }}>
+            <p className="my-1 mx-4">FitZone Fitness</p>
           </Col>
         </Row>
       </Container>

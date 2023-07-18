@@ -2,6 +2,7 @@ img {
   max-height: 600px;
   object-fit: contain;
 }
-Col {
-  font-size: auto;
+p {
+  font-size: 55;
+  color: rgb(228, 58, 55);
 }
