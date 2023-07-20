@@ -14,6 +14,7 @@ export function Header() {
         <Row>
           <Col style={{ fontSize: 33 }}>
             <p className="my-1 mx-4">FitZone Fitness</p>
+            <img src="./ff.png" className="App-logo" alt="logo" />
           </Col>
         </Row>
       </Container>
