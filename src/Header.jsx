@@ -20,7 +20,11 @@ export function Header() {
       <>
         <Carousel variant="dark" className="mh-100">
           <Carousel.Item>
-            <img className="d-block w-100 my-auto img-fluid" src="/assets/1.jpg" alt="First slide" />
+            <img
+              className="d-block w-100 my-auto img-fluid"
+              src="https://no-cache.hubspot.com/cta/default/2540257/2e1ca739-0c47-44da-8434-57de856c8982.png"
+              alt="First slide"
+            />
             <Carousel.Caption>
               <h5></h5>
               <p></p>
