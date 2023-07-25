@@ -6,21 +6,21 @@ import "./Header.css";
 import { AuthenticationLinks } from "./AuthenticationLinks";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
-import logo from "./assets/ff.png";
+import logo from "./assets/yeat.png";
 
 export function Header() {
   return (
     <div>
       <Container style={{ height: "4rem" }}>
         <Row>
-          <Col style={{ fontSize: 33 }}>
+          <Col style={{ fontSize: 30 }}>
             <p className="my-1 mx-4"></p>
-            <img src={logo} alt="BigCo Inc. logo" />
+            <img style={{ width: 200, height: 100 }} src={logo} alt="BigCo Inc. logo" />
           </Col>
         </Row>
       </Container>
       <>
-        <Carousel variant="dark" className="mh-100">
+        <Carousel variant="dark" className="my-5 mh-100">
           <Carousel.Item>
             <img
               className="d-block w-100 my-auto img-fluid"
