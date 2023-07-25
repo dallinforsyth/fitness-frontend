@@ -6,6 +6,7 @@ import "./Header.css";
 import { AuthenticationLinks } from "./AuthenticationLinks";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
+import logo from "./assets/ff.png";
 
 export function Header() {
   return (
@@ -13,8 +14,8 @@ export function Header() {
       <Container style={{ height: "4rem" }}>
         <Row>
           <Col style={{ fontSize: 33 }}>
-            <p className="my-1 mx-4">FitZone Fitness</p>
-            <img className="profile-photo" src={require("./Images/ff.png")} alt={"Carlie Anglemire"} />
+            <p className="my-1 mx-4"></p>
+            <img src={logo} alt="BigCo Inc. logo" />
           </Col>
         </Row>
       </Container>
@@ -45,7 +46,7 @@ export function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100 my-auto img-fluid"
-              src="https://goldsgym.in/uploads/blog/compress-strong-man-training-gym-min.jpg"
+              src="https://www.olympicmuscle.com/wp-content/uploads/2019/09/beginner-workout-plan-for-weight-loss.png"
               alt="Third slide"
             />
             <Carousel.Caption>
