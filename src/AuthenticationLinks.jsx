@@ -20,6 +20,7 @@ export function AuthenticationLinks() {
     return (
       <>
         <Nav.Link href="/youraccount">Your Account</Nav.Link>
+        <Nav.Link href="/create">Create</Nav.Link>
         <Nav.Link href="#" onClick={handleClick}>
           Logout
         </Nav.Link>
