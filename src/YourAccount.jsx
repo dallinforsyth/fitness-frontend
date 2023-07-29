@@ -35,7 +35,7 @@ export function YourAccount() {
     axios
       .get(`http://localhost:3000/users/2.json`)
       .then((response) => {
-        setUserData(response.data); // Update the state with user data
+        setUserData(response.data); // Updated the state with user data
       })
       .catch((error) => {
         console.error("Error fetching user data:", error);
