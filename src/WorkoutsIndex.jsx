@@ -41,7 +41,7 @@ export function WorkoutsIndex(props) {
     });
   };
   return (
-    <div>
+    <div className="mx-2">
       <Form.Select aria-label="Default select example" onChange={(event) => setCurrentBodyGroupId(event.target.value)}>
         <option value="">All Workouts</option>
         <option value="1">Arms</option>
@@ -51,7 +51,9 @@ export function WorkoutsIndex(props) {
         <option value="5">Shoulder</option>
         <option value="6">Back</option>
       </Form.Select>
-      <h1>All Workouts</h1>
+      <h1 className="my-1" style={{ color: "red" }}>
+        Workouts
+      </h1>
       <div>
         {/* <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src="holder.js/100px180" />
@@ -69,11 +71,11 @@ export function WorkoutsIndex(props) {
           {workouts.map((workout) => (
             <Col lg={4} md={5} key={workout.id}>
               {/* <Col sm="auto">1 of 3 */}
-              <Card className="my-5">
+              <Card className="my-5" bg="light" text="dark">
                 <Card.Img variant="top" src={workout.img} />
                 <Card.Body>
                   <Card.Title>
-                    <h2>{workout.name}</h2>
+                    <h2 style={{ color: "maroon" }}>{workout.name}</h2>
                   </Card.Title>
                 </Card.Body>
               </Card>
