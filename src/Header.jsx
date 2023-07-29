@@ -57,7 +57,7 @@ export function Header() {
         </Carousel>
         <header>
           <nav>
-            <Navbar bg="dark" variant="dark" sticky="top">
+            <Navbar bg="danger" variant="dark" sticky="top">
               <Container>
                 <Navbar.Brand href="/">Home</Navbar.Brand>
                 <Nav className="me-auto">
