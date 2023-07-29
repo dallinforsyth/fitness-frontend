@@ -41,7 +41,7 @@ export function WorkoutsIndex(props) {
     });
   };
   return (
-    <div className="mx-2">
+    <div className="mx-2 my-2">
       <Form.Select aria-label="Default select example" onChange={(event) => setCurrentBodyGroupId(event.target.value)}>
         <option value="">All Workouts</option>
         <option value="1">Arms</option>
