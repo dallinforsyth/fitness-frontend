@@ -69,16 +69,12 @@ export function WorkoutsIndex(props) {
           {workouts.map((workout) => (
             <Col lg={4} md={5} key={workout.id}>
               {/* <Col sm="auto">1 of 3 */}
-              <Card>
+              <Card className="my-5">
                 <Card.Img variant="top" src={workout.img} />
                 <Card.Body>
                   <Card.Title>
                     <h2>{workout.name}</h2>
                   </Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                  <Button onClick={() => props.onShowWorkout(handleShowWorkout)}>More info</Button>
                 </Card.Body>
               </Card>
               {/* </Col> */}
