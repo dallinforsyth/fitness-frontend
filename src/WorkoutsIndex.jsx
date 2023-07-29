@@ -69,7 +69,7 @@ export function WorkoutsIndex(props) {
           {workouts.map((workout) => (
             <Col lg={4} md={5} key={workout.id}>
               {/* <Col sm="auto">1 of 3 */}
-              <Card style={{ width: "18rem" }} className="mx-5 my-5">
+              <Card>
                 <Card.Img variant="top" src={workout.img} />
                 <Card.Body>
                   <Card.Title>
