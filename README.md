@@ -12,7 +12,6 @@ A fitness application built using React, Ruby on Rails, join table for workouts,
 
 - User authentication: Register, log in, and log out functionality.
 - Dashboard: Overview of user's workout data, including progress charts and statistics.
-- Workout tracking: Create and log workouts with details such as exercise, duration, and intensity.
 - Goal setting: Set fitness goals and track progress towards achieving them.
 - Exercise library: Browse and search for exercises with detailed instructions and images.
 - Community features: Connect with other users, share achievements, and provide motivation.
@@ -25,11 +24,12 @@ A fitness application built using React, Ruby on Rails, join table for workouts,
 - PostgreSQL: Relational database management system for data storage.
 - CSS and SASS: Styling and design of user interface.
 - Git: Version control system for tracking changes and collaborating with a team.
+- Join table used when setting up database.
 
 ## Installation and Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/fitness-application.git`
-2. Navigate to the project directory: `cd fitness-application`
+1. Clone the repository: `git clone https://github.com/your-username/fitness-frontend.git`
+2. Navigate to the project directory: `cd fitness-frontend`
 3. Install dependencies: `npm install` (for the React frontend) and `bundle install` (for the Rails backend).
 4. Set up the database: `rails db:create`, `rails db:migrate`, `rails db:seed`.
 5. Start the application: `npm start` (for the React frontend) and `rails server` (for the Rails backend).
