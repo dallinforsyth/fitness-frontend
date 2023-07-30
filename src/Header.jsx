@@ -61,7 +61,7 @@ export function Header() {
               <Container>
                 <Navbar.Brand href="/">Home</Navbar.Brand>
                 <Nav className="me-auto">
-                  <Nav.Link href="/">Your Workouts</Nav.Link>
+                  <Nav.Link href="/">Workouts</Nav.Link>
 
                   <Nav.Link href="/pricing">Pricing</Nav.Link>
                   <AuthenticationLinks />
