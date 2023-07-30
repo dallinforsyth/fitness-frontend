@@ -1,7 +1,10 @@
 
 # Fitness Application
 
-![Fitness Application](./app-screenshot.png)
+[Fitness Page 1](https://github.com/dallinforsyth/fitness-frontend/assets/122250064/e873c01a-e474-4c42-a287-70bd21863560)
+
+[Fitness Page 2](https://github.com/dallinforsyth/fitness-frontend/assets/122250064/90b883d4-1d0a-43c1-ab8d-9b079c113eeb)
+
 
 A fitness application built using React, Ruby on Rails, and APIs for a database. This application allows users to track target certian muslces, add a workout plan, and get important information
 
