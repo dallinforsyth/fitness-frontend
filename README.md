@@ -14,7 +14,6 @@ A fitness application built using React, Ruby on Rails, join table for workouts,
 - Dashboard: Overview of user's workout data, including progress charts and statistics.
 - Goal setting: Set fitness goals and track progress towards achieving them.
 - Exercise library: Browse and search for exercises with detailed instructions and images.
-- Community features: Connect with other users, share achievements, and provide motivation.
 
 ## Technologies Used
 
