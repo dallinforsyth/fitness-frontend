@@ -26,6 +26,7 @@
 
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { GoalForm } from "./GoalForm";
 
 export function YourAccount() {
   const [userData, setUserData] = useState(null);
@@ -55,6 +56,7 @@ export function YourAccount() {
       <p>
         <strong>Email:</strong> {userData.email}
       </p>
+      <GoalForm />
     </div>
   );
 }
