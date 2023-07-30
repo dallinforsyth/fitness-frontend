@@ -1,5 +1,5 @@
 
-# Fitness Application
+# FitZoneFitness Application
 
 [Fitness Page 1](https://github.com/dallinforsyth/fitness-frontend/assets/122250064/e873c01a-e474-4c42-a287-70bd21863560)
 
