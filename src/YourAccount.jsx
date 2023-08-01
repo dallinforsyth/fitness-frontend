@@ -31,12 +31,19 @@ import { GoalForm } from "./GoalForm";
 export function YourAccount() {
   const [userData, setUserData] = useState(null);
 
+  const handleGoalSubmit = (goalData) => {
+    console.log("handleCreateWorkout", goalData);
+    axios.post("http://localhost:3000/goals", goalData).then((response) => {
+      console.log("Submitted Goal:", goalData, response);
+    });
+  };
+
   useEffect(() => {
     // Make the API call to fetch user data
     axios
       .get(`http://localhost:3000/users/2.json`)
       .then((response) => {
-        setUserData(response.data); // Updated the state with user data
+        setUserData(response.data); // Updated the state with user dataa
       })
       .catch((error) => {
         console.error("Error fetching user data:", error);
@@ -56,7 +63,7 @@ export function YourAccount() {
       <p>
         <strong>Email:</strong> {userData.email}
       </p>
-      <GoalForm />
+      <GoalForm onSubmit={handleGoalSubmit} />
     </div>
   );
 }
