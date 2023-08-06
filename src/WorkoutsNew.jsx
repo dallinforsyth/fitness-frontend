@@ -1,5 +1,6 @@
 import axios from "axios";
 import { propTypes } from "react-bootstrap/esm/Image";
+import Form from "react-bootstrap/Form";
 
 export function WorkoutsNew() {
   const handleCreateWorkout = (params) => {
@@ -10,6 +11,7 @@ export function WorkoutsNew() {
   };
 
   const handleSubmit = (event) => {
+    debugger;
     event.preventDefault();
     const params = new FormData(event.target);
     handleCreateWorkout(params);
@@ -18,11 +20,15 @@ export function WorkoutsNew() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        {/* User ID: <input name="user_id" type="text" /> */}
+        {/* User ID: <input ndame="user_id" type="text" /> */}
         Name: <input name="name" type="text" />
         img: <input name="img" type="text" />
-        Body Group: <input name="body_group_id" type="text" />
-        Muscle: <input name="muscle_group_id" type="text" />
+        <Form.Select aria-label="Default select example" multiple>
+          <option>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </Form.Select>
       </div>
       <button type="submit">Add Workout</button>
     </form>
